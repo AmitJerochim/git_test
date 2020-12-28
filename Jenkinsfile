@@ -12,7 +12,7 @@ pipeline {
                 echo 'Testing..'
 								sh 'chmod +x test.sh'
 							dir('.')i{
-								sh 'test.sh'
+								sh './test.sh'
 							}
             }
         }
