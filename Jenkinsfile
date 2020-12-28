@@ -10,7 +10,7 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Testing..'
-								sh 'echo "hello World from bash'
+								sh 'echo "hello World from bash"'
 								sh 'pwd'
 								sh 'ls -la'
             }
