@@ -10,10 +10,9 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Testing..'
-								sh 'chmod +x test.sh'
-							dir('.')i{
-								sh './test.sh'
-							}
+								sh 'echo "hello World from bash'
+								sh 'pwd'
+								sh 'ls -la'
             }
         }
         stage('Deploy') {
