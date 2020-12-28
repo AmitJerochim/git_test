@@ -13,6 +13,7 @@ pipeline {
 								sh 'echo helloWorldfrombash'
 								sh 'pwd'
 								sh 'ls -la'
+								sh 'bash test.sh'
             }
         }
         stage('Deploy') {
