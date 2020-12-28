@@ -22,15 +22,13 @@ pipeline {
             }
         }
     }
-		POST {
+		post {
 			always {
 				echo 'i am always executed'
 			}
-
 			success {
 				echo 'built, tested and deployed successfully'
 			}
-
 			failure {
 				echo 'something went bad!!!'
 			}
